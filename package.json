@@ -1,0 +1,17 @@
+{
+  "name": "autoprospect",
+  "private": true,
+  "scripts": {
+    "dev": "bun slack-webhook.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
+    "@slack/bolt": "^4.7.1"
+  }
+}
